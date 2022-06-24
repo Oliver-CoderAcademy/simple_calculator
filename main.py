@@ -1,10 +1,3 @@
-# Goal:
-# Create a calculator program. It should:
-# - print an introduction message
-# - take input from the user
-# - perform addition, subtraction, multiplication and division
-# - print the calculation it performs AND the result
-
 def _introduction(operation):
     welcome_string = "Welcome to the calculator program."
     prompt_string = f"Please give me two values to {operation}."
@@ -46,4 +39,3 @@ def divide_numbers():
     num2 = _get_number(2)
     result = num1 / num2
     _print_result(num1, num2, "/", result)
-
